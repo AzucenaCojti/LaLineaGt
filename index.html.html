@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El caso La Línea y su impacto en la sociedad guatemalteca</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #f4f4f4, #d9e6f1);
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1b3a57;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 2s ease;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    nav {
+      background-color: #294f6d;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      margin: 0 0.5rem;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #1b3a57;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      animation: slideIn 1s ease;
+    }
+    section:hover {
+      transform: scale(1.05);
+    }
+    section:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    @keyframes slideIn {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(0); }
+    }
+    h2 {
+      color: #1b3a57;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      background: #000;
+      margin-bottom: 2rem;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #f4a261;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #e76f51;
+    }
+    .card {
+      background-color: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>El caso La Línea y su impacto en la sociedad guatemalteca</h1>
+    <p>Proyecto escolar educativo sobre el caso de corrupción en Guatemala.</p>
+    <p>Cuando el pueblo alzó la voz contra la corrupción.</p>
+  </header>
+  <nav>
+    <a href="#corrupcion">¿Qué es la corrupción?</a>
+    <a href="#la-linea">Caso La Línea</a>
+    <a href="#impacto">Impacto en Guatemala</a>
+    <a href="#jovenes">Jóvenes en acción</a>
+    <a href="#justicia">Justicia</a>
+    <a href="#prevencion">Prevención</a>
+  </nav>
+  <section class="video-container">
+    <iframe src="https://www.youtube.com/embed/pR39pmP1bqM" title="Caso La Línea - Video Informativo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <section class="card">
+    <h2>Galería de imágenes</h2>
+    <div class="gallery">
+      <img src="https://www.plazapublica.com.gt/sites/default/files/protesta_22.jpg" alt="Corrupción">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsIXm3GryFPIETnrhpvc1NSyKOG1mMmqduqw&s" alt="Caso La Línea">
+      <img src="https://plazapublica.com.gt/multimedia/disidencia-y-disciplina/css/img/Protestas-Cooptacion-Estado-04.JPG" alt="Protestas">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTnYB1v1wRZTEITgBjh1v9hPFPpgBFh2zNVQ&s" alt="Jóvenes en acción">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJo5sOlftKNptpQC6hDVit8BO3kzk_wzWsg&s" alt="Justicia en Guatemala">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIou31453ZH27z_YDYxk0VI9zhcELLuJGbmA&s" alt="Prevención">
+      <img src="https://comunitariapress.wordpress.com/wp-content/uploads/2015/09/dsc_0388.jpg" alt="Manifestación 2015">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmHzJrLIBGJswrnoVU_ksi9FBuOLCrVX36Q&s" alt="Audiencia caso La Línea">
+      <img src="https://www.eleconomista.net/__export/1527102945678/sites/prensagrafica/img/economista/2015/08/21/22b279eb-bd5a-46e8-aa40-b07c264f2283.jpg_1005196607.jpg" alt="Imputados en juicio">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXfrVLNt9nOWkQfNgJ9AGOlHrxLluGg6n0g&s" alt="Captura por corrupción">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06bD9y6jdwCmMff6-xhNWv-WQli9aUy1aOg&s" alt="Investigación del MP">
+    </div>
+  </section>
+
+  <!-- Sección ¿Qué es la corrupción? -->
+  <section id="corrupcion" class="card">
+    <h2>¿Qué es la corrupción?</h2>
+    <img src="https://lahora.gt/wp-content/uploads/sites/5/2020/01/Repo6_1a5.jpg" alt="Corrupción" />
+    <p>La corrupción es el abuso de poder para obtener beneficios personales o de grupo a través de medios ilegales, inmorales o injustos. Se da cuando se violan las leyes o normas establecidas, afectando el bienestar de la sociedad.</p>
+    <p>Ejemplos comunes de corrupción incluyen el soborno (cuando alguien paga a otro para evitar consecuencias legales) o el fraude (cuando se manipula la información para obtener un beneficio injusto).</p>
+    <p>La corrupción afecta profundamente a la economía, a la confianza de las personas en las instituciones y en la política, y crea un ciclo de injusticia donde las leyes no se aplican igual para todos.</p>
+    <p>La lucha contra la corrupción es fundamental para garantizar una sociedad justa y equitativa, y debe comenzar en las bases: en las familias, las escuelas y en el trabajo diario de todos.</p>
+  </section>
+
+  <!-- Sección Caso La Línea -->
+  <section id="la-linea" class="card">
+    <h2>¿Qué fue el caso La Línea?</h2>
+    <img src="https://prensacomunitaria.org/wp-content/uploads/2024/10/1024-682-29-1.jpg" alt="Caso La Línea" />
+    <p>El caso de La Línea es un escándalo de corrupción descubierto en 2015, que involucró a altos funcionarios del gobierno de Guatemala, quienes recibían sobornos para permitir el contrabando de mercancías sin pagar impuestos. Este caso fue llamado "La Línea" porque los involucrados se comunicaban a través de una línea telefónica secreta, conocida solo por ellos.</p>
+    <p>En este esquema de corrupción, empresarios y funcionarios de la SAT (Superintendencia de Administración Tributaria) se coludieron para hacer desaparecer impuestos y permitir el paso de productos importados sin los controles legales correspondientes. A cambio, recibían pagos ilegales, conocidos como sobornos.</p>
+    <p>Las autoridades guatemaltecas descubrieron el fraude gracias a una investigación realizada por el Ministerio Público (MP) y la Comisión Internacional contra la Impunidad en Guatemala (CICIG), con la colaboración de la ciudadanía.</p>
+    <p>Este caso involucró a figuras poderosas, como el presidente de Guatemala, Otto Pérez Molina, y la vicepresidenta, Roxana Baldetti. Fueron arrestados y enfrentaron un juicio por corrupción, lo que causó una gran conmoción en el país.</p>
+  </section>
+
+  <!-- Sección Impacto en Guatemala -->
+  <section id="impacto" class="card">
+    <h2>Impacto en Guatemala</h2>
+    <img src="https://www.plazapublica.com.gt/sites/default/files/movimientos_sociales_de_protestas_02.jpg" alt="Impacto de La Línea" />
+    <p>El descubrimiento del caso La Línea tuvo un impacto profundo en Guatemala. Primero, mostró la magnitud de la corrupción dentro del gobierno y sus instituciones. Este escándalo dejó en evidencia la falta de transparencia y la necesidad urgente de reformas en el sistema político y judicial.</p>
+    <p>En respuesta, miles de guatemaltecos, especialmente jóvenes, salieron a las calles a protestar. Exigieron justicia, transparencia y el fin de la impunidad. Las manifestaciones se realizaron de forma pacífica, pero con un mensaje claro: no más corrupción.</p>
+    <p>El impacto social fue significativo, ya que las protestas obligaron a los altos funcionarios del gobierno a renunciar, incluyendo al presidente Otto Pérez Molina, quien renunció el 3 de septiembre de 2015, y la vicepresidenta Roxana Baldetti. Ambos fueron capturados y enfrentaron cargos de corrupción.</p>
+  </section>
+
+  <!-- Sección Jóvenes en acción -->
+  <section id="jovenes" class="card">
+    <h2>Jóvenes en acción</h2>
+    <img src="https://www.plazapublica.com.gt/multimedia/disidencia-y-disciplina/css/img/photo_2021-03-06_08-11-14.jpg" alt="Jóvenes en acción" />
+    <p>Los jóvenes guatemaltecos desempeñaron un papel crucial durante las protestas contra el gobierno corrupto. A través de redes sociales y manifestaciones, se organizaron para exigir justicia, hacer sentir su voz y luchar por un futuro mejor para su país.</p>
+    <p>En muchos casos, los jóvenes no solo se unieron a las protestas, sino que también participaron activamente en las investigaciones sobre el caso, apoyando las denuncias y promoviendo el activismo en favor de un sistema más justo.</p>
+    <p>Este movimiento fue un ejemplo de cómo la juventud puede ser un motor de cambio en la sociedad, demostrando que la lucha contra la corrupción no tiene edad y que todos podemos hacer algo para mejorar nuestro entorno.</p>
+  </section>
+
+  <!-- Sección Justicia -->
+  <section id="justicia" class="card">
+    <h2>La justicia tras el caso La Línea</h2>
+    <img src="https://icg-prod.s3.amazonaws.com/guatemala-29jan2016.jpg" alt="Justicia" />
+    <p>El proceso judicial posterior al caso La Línea resultó en la captura y condena de varios implicados, incluyendo altos funcionarios del gobierno. Sin embargo, a pesar de los avances, muchos consideran que la justicia en Guatemala aún enfrenta retos significativos debido a la corrupción en el sistema judicial y la falta de independencia en algunas instituciones.</p>
+    <p>A pesar de estos desafíos, el caso La Línea fue un paso importante para demostrar que la lucha contra la corrupción es posible, y que las instituciones y ciudadanos tienen la capacidad de exigir rendición de cuentas.</p>
+  </section>
+
+  <!-- Sección Prevención -->
+  <section id="prevencion" class="card">
+    <h2>Prevención de la corrupción</h2>
+    <img src="https://www.prensalibre.com/wp-content/uploads/2018/12/6b579807-e1f3-45ef-913b-05a9e4963585.jpg?quality=52" alt="Prevención" />
+    <p>La prevención de la corrupción es clave para evitar que casos como el de La Línea se repitan. Para lograrlo, es necesario fortalecer las instituciones democráticas, promover la educación sobre ética y responsabilidad cívica, y fomentar la participación activa de la ciudadanía en la vigilancia de las acciones del gobierno.</p>
+    <p>Los jóvenes juegan un papel crucial en esta tarea, pues tienen la energía y la creatividad para impulsar cambios en la sociedad. Además, las nuevas tecnologías y las redes sociales permiten que más personas se involucren en la denuncia de actos corruptos y en la promoción de la transparencia.</p>
+  </section>
+
+  <footer style="text-align:center; padding: 1rem; background-color: #1b3a57; color: white;">
+    <p>&copy; 2025 Proyecto Escolar sobre el Caso La Línea - Guatemala</p>
+  </footer>
+
+</body>
+</html>
